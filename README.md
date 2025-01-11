@@ -98,31 +98,30 @@ The ETL pipeline is divided into three main phases:
 The `main.py` script serves as the central entry point for executing the ETL pipeline.
 
 #### Run the Complete Pipeline:
-```bash
+---bash
 python main.py --etl_type=all
 
-#### Run only raw extraction:
+# Run only raw extraction:
 ---bash
 python main.py --etl_type=raw
 
-### Run Transformation Phases:
+# Run Transformation Phases:
 DocuSign Envelopes:
 ---bash
 python main.py --etl_type=transformed_docusign_envelope
 
-DocuSign SMS:
----bash
+# DocuSign SMS:
 python main.py --etl_type=transformed_docusign_sms
 
-OneSpan Envelopes:
+# OneSpan Envelopes:
 ---bash
 python main.py --etl_type=transformed_onespan
 
 ### Run Data Merging:
-Merge DocuSign and OneSpan:
+# Merge DocuSign and OneSpan:
 ---bash
 python main.py --etl_type=merge
-Merge SMS and Envelopes:
+# Merge SMS and Envelopes:
 ---bash
 python main.py --etl_type=merge_sms_envelope
 
