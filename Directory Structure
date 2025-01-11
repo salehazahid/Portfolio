@@ -1,0 +1,18 @@
+# Directory Structure
+
+|-- Signature/
+|   |-- raw_data_processing/
+|   |   |-- extract_email_to_s3.py
+|   |   |-- client_info.py
+|   |
+|   |-- transformations/
+|   |   |-- process_docusign_data.py
+|   |   |-- process_docusign_sms_data.py
+|   |   |-- process_onespan_data.py
+|   |   |-- Merge_files.py
+|   |   |-- sms_merge.py
+|   |
+|   |-- model/
+|   |   |-- model_raw.py
+|   |
+|   |-- main.py
