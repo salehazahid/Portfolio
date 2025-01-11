@@ -95,7 +95,7 @@ The ETL pipeline is divided into three main phases:
 ## Usage
 
 ### **Command-Line Arguments**
-----bash
+'''bash
 The `main.py` script serves as the central entry point for executing the ETL pipeline.
 
 #### Run the Complete Pipeline:
