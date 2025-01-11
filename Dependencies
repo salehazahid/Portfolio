@@ -1,0 +1,14 @@
+# Python Libraries
+
+boto3: AWS SDK for Python.
+O365: Integration with Microsoft Graph API.
+pyzipper: For processing encrypted ZIP files.
+pandas: Data manipulation and analysis.
+argparse: Command-line argument parsing.
+logging: For logging actions and errors.
+
+
+# AWS Services
+S3: Storage for raw and processed files.
+Secrets Manager: Secure credential storage.
+AWS Glue
