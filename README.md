@@ -100,33 +100,38 @@ The `main.py` script serves as the central entry point for executing the ETL pip
 #### Run the Complete Pipeline:
 ```bash
 python main.py --etl_type=all
+```
 
 ### Run only raw extraction:
 ```bash
 python main.py --etl_1type=raw
+```
 
 ### Run Transformation Phases:
 ```bash
-DocuSign Envelopes:
 python main.py --etl_type=transformed_docusign_envelope
+```
 
 #### DocuSign SMS:
 ```bash
 python main.py --etl_type=transformed_docusign_sms
+```
 
 #### OneSpan Envelopes:
-```bash
+```bash 
 python main.py --etl_type=transformed_onespan
+```
 
 ### Run Data Merging:
 #### Merge DocuSign and OneSpan:
 ```bash
 python main.py --etl_type=merge
+```
 
 #### Merge SMS and Envelopes:
 ```bash
 python main.py --etl_type=merge_sms_envelope
-
+```
 
 
 
